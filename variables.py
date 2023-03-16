@@ -5,6 +5,7 @@ print(x,y)
 x = str(5)
 y = int(3)
 z = float(3)
+#type() function
 print(type(x))
 print(type(y))
 print(type(z))
