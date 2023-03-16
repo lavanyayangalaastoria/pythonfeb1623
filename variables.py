@@ -9,4 +9,4 @@ print(type(x))
 print(type(y))
 print(type(z))
 #python is case sensitive
-# char can be created using single or double quotes
+# char can be created using single or double quotesk
