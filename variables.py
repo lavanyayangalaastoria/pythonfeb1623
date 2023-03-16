@@ -25,3 +25,8 @@ PascalCase = "PascalCaseConvention"
 snake_case = "snakecase_convention"
 print(camelcase,PascalCase,snake_case)
 
+#assigning multiple values
+x,y,z = "Orange","Banana","Cherry"
+print(x,y,z)
+x=y=z = "Orange"
+print(x,y,z)
