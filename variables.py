@@ -31,3 +31,7 @@ print(x,y,z)
 x=y=z = "Orange"
 print(x,y,z)
 
+#unpack a collection
+fruits = ["apple","banana","cherry"]
+x,y,z = fruits
+print(x,y,z)
