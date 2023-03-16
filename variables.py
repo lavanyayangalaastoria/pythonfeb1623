@@ -35,3 +35,7 @@ print(x,y,z)
 fruits = ["apple","banana","cherry"]
 x,y,z = fruits
 print(x,y,z)
+
+#output variables
+x = "Python is awesome"
+print(x)
