@@ -16,3 +16,8 @@ def myfunc():
     print("Python is: " +x)
 myfunc()
 print("Python is: " +x)
+
+x = "object oriented"
+def myfunc():
+    print("Python is  "+x)
+myfunc()
