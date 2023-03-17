@@ -51,3 +51,5 @@ b = 200
 
 if b > a:
   pass
+
+print("No output as pass statement does nothing but acts as a placeholder")
