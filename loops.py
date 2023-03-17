@@ -81,3 +81,52 @@ print("For Loop")
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
   print(x)
+  
+print("Looping through a string")
+for x in "banana":
+  print(x)
+
+print("Break Statement")
+print("Exit the loop when x is 'banana'")
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+  if x == "banana":
+    break
+print("Exit the loop when x is 'banana', but this time the break comes before the print:")
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    break
+  print(x)
+  
+print("Continue Statement")
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    continue
+  print(x)
+  
+print("range() function")
+for x in range(6):
+    print(x)
+for x in range(1,6):
+    print(x)
+    
+print("Increment sequence by adding 3rd parameter")
+for x in range(2, 30, 3):
+  print(x)
+  
+print("Else in FOR Loop")
+for x in range(6):
+  print(x)
+else:
+  print("Finally finished!")
+  
+print("Nested Loops")
+adj = ["red", "big", "tasty"]
+fruits = ["apple", "banana", "cherry"]
+
+for x in adj:
+  for y in fruits:
+    print(x, y) 
