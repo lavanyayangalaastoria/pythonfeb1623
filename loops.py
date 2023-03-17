@@ -53,3 +53,9 @@ if b > a:
   pass
 
 print("No output as pass statement does nothing but acts as a placeholder")
+
+print("While loop")
+i = 1
+while i < 6:
+  print(i)
+  i += 1
