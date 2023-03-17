@@ -10,7 +10,7 @@ def display():
 display()
 print("Global value is",a)
 
-# x = "awesome"
+x = "awesome"
 def myfunc():
     x = "hi"
     print("Python is: " +x)
