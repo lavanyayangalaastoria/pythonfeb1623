@@ -9,5 +9,10 @@
 # Binary Types: 	bytes, bytearray, memoryview
 # None Type: 	NoneType
 # getting type of datatype
-x = 5 
+#string
+x = 'hello'
+y = "Hello"
+print(x,y)
 print(type(x))
+x = 5 
+print(x,type(x))
