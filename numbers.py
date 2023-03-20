@@ -69,7 +69,7 @@ print(c)
 print(type(a))
 print(type(b))
 print(type(c))
-
+print("random numbers program")
 import random
 print(random.randrange(1,10))
 print("Casting in nums 1.int")
