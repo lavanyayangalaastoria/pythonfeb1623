@@ -45,6 +45,7 @@ snake_case = "snakecase_convention"
 print(camelCase,PascalCase,snake_case)
 
 #assigning multiple values
+#many values to Multiple Variables
 x,y,z = "Orange","Banana","Cherry"
 print(x,y,z)
 #one value to multiple variables
@@ -57,15 +58,17 @@ x,y,z = fruits
 print(x,y,z)
 
 #output variables
+#print() function is used to output variables.
 x = "Python is awesome"
 print(x)
-
+#print() function can be printed seperated by comma
 x = "Python"
 y = "Is"
 z = "Awesome"
 print(x,y,z)
+# '+' operator can also be used to output multiple variables.
 print(x+y+z)
-
+# '+' is used as operator for numeric operations.
 x = 10
 y = 5
 print(x+y)
