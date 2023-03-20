@@ -1,11 +1,11 @@
-print("Uppercase")
+print("--Uppercase--")
 a = "Hello, World!"
 print(a.upper())
-print("Lowercase")
+print("--Lowercase--")
 a = "Hello, World!"
 print(a.lower())
-print("strip removes white space from begining or end")
-a = "  Hello,World!"
+print("--strip removes white space from begining or end--")
+a = "  Hello, World!"
 print(a.strip())
 print("Replace string")
 a = "Hello world"
