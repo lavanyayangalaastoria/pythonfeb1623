@@ -1,5 +1,5 @@
 # variables created outside a function called as global variables.
-# they can be used by everyone inside and outside of a function
+# they can be used by everyone both inside and outside of a function
 # local variables are variables which are within the function where variables have been declared.
 # global variables - entire program
 #local and global declarations
@@ -35,6 +35,7 @@ x = "awesome"
 def myfunc():
     global x 
     x = "fantastic"
+    print("Python is: "+x)
 myfunc()
 print("Python is "+x)
 
