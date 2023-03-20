@@ -1,11 +1,11 @@
 print("Escape Characters")
-#To insert characters that are illegal in a string escape character can be used.
-# \' 	Single Quote 	
-# \\ 	Backslash 	
-# \n 	New Line 	
-# \r 	Carriage Return 	
-# \t 	Tab 	
-# \b 	Backspace 	
-# \f 	Form Feed 	
-# \ooo 	Octal value 	
-# \xhh 	Hex value
+print("#To insert characters that are illegal in a string escape character can be used.")
+print("# \' 	Single Quote") 	
+print("# \\ 	Backslash") 	
+print("# \n 	New Line")	
+print("# \r 	Carriage Return") 	
+print("# \t 	Tab") 	
+print("# \b 	Backspace") 	
+print("# \f 	Form Feed") 	
+print("# \ooo 	Octal value") 	
+print("# \xhh 	Hex value")
