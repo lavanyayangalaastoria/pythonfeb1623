@@ -5,32 +5,40 @@
 #local and global declarations
 #create a variable inside a function with same name
 # as global variable.
+
+print("-- Global Variables - Ex:1 -- ")
+x = "awesome"
+
+def myfunc():
+  print("Python is " + x)
+
+myfunc() 
 a = 20
 def display():
     a = 50
     print("Local value is",a)
 display()
 print("Global value is",a)
-# create a variable inside a function with same name as global variable.
+print(" Global Variable --> Ex: 2 -- # create a variable inside a function with same name as global variable. -- ")
 x = "awesome"
 def myfunc():
     x = "hi"
     print("Python is: " +x)
 myfunc()
 print("Python is: " +x)
-
+print("-- Ex: 3 Global Variables -- ")
 x = "object oriented"
 def myfunc():
     print("Python is  "+x)
 myfunc()
-#use global keyword - the variable belongs to global scope
+print(" --Ex: 4 #use global keyword - the variable belongs to global scope -- ")
 def myfunc():
     global x 
     x = "fantastic"
 myfunc()
 print("Python is "+x)
 
-#use global keyword - to change global variable inside a function
+print("-- Ex:5 #use global keyword - to change global variable inside a function")
 x = "awesome"
 def myfunc():
     global x 
@@ -38,5 +46,10 @@ def myfunc():
     print("Python is: "+x)
 myfunc()
 print("Python is "+x)
+
+
+
+
+
 
 
