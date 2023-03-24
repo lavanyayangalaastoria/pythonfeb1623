@@ -10,43 +10,61 @@
 # None Type: 	NoneType
 # getting type of datatype
 #string
+print("Print the datatype of the variable 'x', 'y' ")
 x = 'hello'
 y = "Hello"
 print(x,y)
 print(type(x))
 x = 5 
 print(x,type(x))
-# to specify the datatype use constructor functions
-#ex: 
+print(" -- # to specify the datatype use constructor functions -- ")
+print("-- str example --") 
 x = str("Hello world")
 print(x)
-x = "Hello World" 	#str 
-print("x is:",x)	
-x = 20 	#int 
-print("x is:",x)	
-x = 20.5 	#float 
-print("x is:",x)	
-x = 1j 	#complex 
-print("x is:",x)	
-x = ["apple", "banana", "cherry"] 	#list 
-print("x is:",x)	
-x = ("apple", "banana", "cherry") 	#tuple
-print("x is:",x) 	
-x = range(6) 	#range 	
+x = "Hello World" 
+
 print("x is:",x)
-x = {"name" : "John", "age" : 36} 	#dict 
+print("-- #int  -- ")	
+x = 20 	
+print("x is:",x)
+print(" -- #float --")	
+x = 20.5 	 
+print("x is:",x)
+print(" -- #complex --")	
+x = 1j 	 
 print("x is:",x)	
-x = {"apple", "banana", "cherry"} 	#set 
+print(" -- #list --")
+x = ["apple", "banana", "cherry"] 	
 print("x is:",x)	
+print(" -- tuple -- ")
+x = ("apple", "banana", "cherry") 	
+print("x is:",x) 
+print("-- range() --")	
+x = range(6) 		
+print("x is:",x)
+print(" -- dict -- ")
+x = {"name" : "John", "age" : 36} 	
+print("x is:",x)	
+print(" -- set -- ")
+x = {"apple", "banana", "cherry"} 	
+print("x is:",x)	
+print(" -- frozenset -- ")
 x = frozenset({"apple", "banana", "cherry"})
-print("x is:",x)#frozenset 	
-x = True 	#bool 	
-print("x is:",x)
-x = b"Hello" 	#bytes 
 print("x is:",x)	
-x = bytearray(5) 	#bytearray 	
+print(" -- bool -- ")
+x = True 		
 print("x is:",x)
-x = memoryview(bytes(5)) 	#memoryview 
+print(" -- bytes --")
+x = b"Hello" 	
+print("x is:",x)
+print(" -- #bytearray --")	
+x = bytearray(5) 		
+print("x is:",x)
+print("-- #memoryview  -- ")
+x = memoryview(bytes(5)) 	
 print("x is:",x)	
-x = None 	#NoneType 	
+print("-- #NoneType -- ")
+x = None 	 	
 print("x is:",x)
+
+
